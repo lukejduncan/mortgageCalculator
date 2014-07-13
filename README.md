@@ -6,4 +6,8 @@ While doing some research on mortgages I found myself looking at the JavaScript 
 
 When I discovered they weren't doing anything sophisticated I decided to build my own command line calculator.
 
-No guarantees are made about the this code.  Use at your own peril. 
+No guarantees are made about the this code.  Use at your own peril.
+
+# How to Run
+
+sbt "run sample.dat sample.out"
