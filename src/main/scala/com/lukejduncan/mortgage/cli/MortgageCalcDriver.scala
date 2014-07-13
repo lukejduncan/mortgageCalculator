@@ -13,6 +13,7 @@ object MortgageCalcDriver {
   def main(args: Array[String]) = {
     if (args.size != 2) {
       println("Expected: <infile> <outfile>")
+      System.exit(0)
     }
 
     val calc = new MortgageCalculator()
@@ -45,7 +46,7 @@ object MortgageCalcDriver {
         optMonthlyHOA,
         typ)
 
-      writer.write(payment.toString)
+      writer.write(payment.toString + "\n")
     }
 
     inFile.close
