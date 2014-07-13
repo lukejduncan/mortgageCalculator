@@ -3,8 +3,8 @@ package unit
 import org.specs2.matcher.ShouldMatchers
 import org.specs2.mutable._
 import unit.DoublePrecision._
-import com.lukejduncan.mortgage.LoanType
-import com.lukejduncan.mortgage.MortgageCalculator
+import com.lukejduncan.mortgage.calc.LoanType
+import com.lukejduncan.mortgage.calc.MortgageCalculator
 
 object TestMortgageCalculator extends Specification with ShouldMatchers {
   implicit val precision = Precision(0.5)
